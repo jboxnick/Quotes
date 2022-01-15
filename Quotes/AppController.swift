@@ -50,8 +50,7 @@ final class AppController {
         } else {
             
             //User is not logged in
-            
-            rootViewController = SignUpViewController()
+            rootViewController = UINavigationController(rootViewController: SignUpViewController())
         }
     }
 }

@@ -8,12 +8,20 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .green
+    }
+    
+    //MARK: - Setup Functions
+    
+    private func setupViews() {
+        
     }
     
 
